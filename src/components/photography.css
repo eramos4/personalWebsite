@@ -1,0 +1,35 @@
+.photos{
+    display: flex;   
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+   
+    
+}
+.grid-container-photos{
+    display: grid;
+    width: 100vw;
+   height: 110vh;
+   grid-template-columns:  1fr;
+   /* grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr); */
+   overflow: auto;
+  
+   /* row-gap: 5em; */
+}
+
+.photography{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline blue;
+    text-underline-position: under;
+    margin: 0 auto;
+}
+
+.photo-item{
+    display: flex;
+    padding: none;
+    /* background-image: url(./images/play2.gif);  */
+    flex-direction: column;
+    background-size: cover;
+}

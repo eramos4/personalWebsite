@@ -1,0 +1,153 @@
+.grid-container{
+    display: grid;
+     width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    overflow: auto;
+}
+
+
+.grid-item{
+    
+    /* border: 1px solid #555; */
+    display: flex;
+    
+    background-image: url(../images/play2.gif); 
+    background-size: cover;
+   
+}
+
+
+
+.intro-block{
+    border: 3px solid white;
+    height: 14vw;
+    width: 19.5vw;
+    margin: 0 auto;
+    margin-top: 370px;
+    
+}
+
+
+.styling{
+
+    font-size: 46px;
+    color: white;
+    margin:0 auto;
+}
+.styling2{
+    visibility: hidden;
+}
+
+.sub-text{
+    font-size: 26px;
+
+}
+
+
+
+@media screen and (max-width: 500px){
+    .grid-container{
+        
+        /* grid-auto-flow: column; */
+        grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+        /* grid-template-rows: repeat(1fr); */
+    
+    }
+    .styling2{
+        visibility: visible;
+        font-size: 36px;
+        color: white;
+        margin:0 auto;
+    }
+    .styling{
+        display:none;
+        visibility: hidden;
+        font-size: 22px;
+    }
+    .sub-text{
+        font-size: 14px;
+    
+    }
+}
+
+/* 
+
+
+.holding-container{
+        
+    background-color: #2649A3;
+    
+    
+    width: 100vw;
+    height: 100vh;
+    
+
+} 
+
+.top-container{
+    height: calc(50vh - (17vh));
+}
+
+
+*/
+/* 
+
+@media screen and (max-width: 1600px){
+    .intro-block{
+
+        
+        
+        height: 24vw;
+        width: 33vw;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .intro-block{
+
+        margin: 0 auto;
+        margin-top: 360px;
+        height: 30vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .intro-block{
+
+        margin: 0 auto;
+        height: 30vw;
+        width: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .intro-block{
+        margin: 0 auto;
+        height: 30vw;
+        width: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .intro-block{
+       margin: 0 auto;
+       margin-top: 340px;
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .styling{
+        font-size: 28px;
+        
+    }
+    
+    .sub-text{
+        font-size: 18px;
+    
+    }
+} */
