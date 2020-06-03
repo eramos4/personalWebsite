@@ -33,3 +33,24 @@
     flex-direction: column;
     background-size: cover;
 }
+
+@media screen and (max-width: 400px){
+    
+.photography{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline blue;
+    text-underline-position: under;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 380px){
+    .photography{
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline blue;
+        text-underline-position: under;
+        margin: 0 auto;
+    }
+}
