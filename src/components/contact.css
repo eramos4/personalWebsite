@@ -40,7 +40,7 @@
 .resume-image{
     width: 2.5vh;
     margin-top: 30px;
-    margin-left: 92px;
+    margin-left: 96px;
 }
 
 .logo-image{
@@ -118,7 +118,7 @@
 @media screen and (max-width: 600px) {
     .card{
         height: 250px;
-        width: 320px;
+        width: 310px;
     }
     .email-card{
         
@@ -164,8 +164,27 @@
         margin-bottom: 0px;
         margin-left: 90px;
     }
+    .email-card:hover{
+        color: red;
+        font-size: 12px;
+    }
+    
+    .insta-card:hover{
+        color: red;
+        font-size: 12px;
+    }
+    
+    .github-card:hover{
+        color: red;
+        font-size: 12px;
+    }
+    
+    .resume-card:hover{
+        color: red;
+        font-size: 12px;
+    }
     .logo{
-        margin-right: 250px;
+        margin-right: 220px;
         margin-top: 20px;
     }    
     .logo-image{
