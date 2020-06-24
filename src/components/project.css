@@ -3,11 +3,8 @@
     width: 100vw;
    height: 150vh;
    flex-direction: column;
-   /* grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(3, 1fr); */
+   
    overflow: hidden;
-  
-   /* row-gap: 5em; */
 }
 .projects{
     font-size: 36px;
@@ -19,7 +16,6 @@
 .project-item{
     display: flex;
     padding: none;
-    /* background-image: url(./images/play2.gif);  */
     flex-direction: column;
     background-size: cover;
 }
@@ -28,7 +24,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 #padding-text{
@@ -36,15 +32,32 @@
   
 }
 
+.gg-image-size{
+    width: 40vh;
+    margin-bottom: 150px;
+    position: relative;
+    display: block;
+    margin-right: 150px;
+}
+.iphone-image-size{
+    width: 30vh;
+    position: relative;
+    display: block;
+    margin: 1em auto;   
+    margin-left: 220px;
+    margin-bottom: 150px;
+}
+
+
 .image-size{
     width: 65vh;
-    margin-top: 60px;
+    margin-bottom: 60px;
     position: relative;
     display: block;
     margin: 1em auto;
-    
+    margin-right: 20px;
     padding: 60px;
-
+   
 }
 
 .biomed-title{
@@ -53,6 +66,14 @@
     font-weight: bold;
     color:blue;
 }
+
+.gg-title{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:blue;
+}
+
 .biomed-about{
     
     font-family: 'Roboto', sans-serif;
@@ -63,38 +84,84 @@
     font-size: 18px;
 }
 
+#gg-padding-text{
+    padding: 90px;
+    font-size: 18px;
+    margin-left: 125px;
+}
+
 @media screen and (max-width: 1200px){
+    
     .project-container{
         flex-direction: column;
     }
+
 }
 
 @media screen and (max-width: 600px) {
 
+    .grid-container-projects{
+        display: flex; 
+        width: 100vw;
+       height: 220vh;
+      
+    }
+
     .projects{
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline blue;
+        text-underline-position: under;
         margin: 0 auto;
+        margin-top: 60px;
     }
+
+    .project-container{
+        
+        margin-top: 0px;
+    }
+    
     .image-size{
-        width: 400px;
+        width: 330px;
+       padding: 0px;
     }
+
+    .iphone-image-size{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
     .biomed-title{
         
         font-size: 24px;
+    }
+
+    .gg-title{
+        font-size: 20px;
     }
     
     #padding-text{
         padding: 30px;
     
     }
+    #gg-padding-text{
+        padding: 30px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
     
     .project-container{
-        margin-top: 30px;
+        margin-top: 0px;
     }
+
     body {
         overflow-x: hidden;
         
     }
 }
+
+/* 
 @media screen and (max-width: 400px){
     .projects{
         font-size: 32px;
@@ -105,15 +172,10 @@
         margin-top: 10px;
     }
     .grid-container-projects{
-        display: flex; 
+        
         width: 100vw;
        height: 110vh;
-       flex-direction: column;
-       /* grid-template-columns: repeat(3, 1fr);
-       grid-template-rows: repeat(3, 1fr); */
-       overflow: hidden;
       
-       /* row-gap: 5em; */
     }
     
     
@@ -132,12 +194,7 @@
         display: flex; 
         width: 100vw;
        height: 180vh;
-       flex-direction: column;
-       /* grid-template-columns: repeat(3, 1fr);
-       grid-template-rows: repeat(3, 1fr); */
-       overflow: hidden;
       
-       /* row-gap: 5em; */
     }
     
-}
+} */
