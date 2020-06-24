@@ -144,7 +144,11 @@ body{
     border-radius: 6px;
     
   }
-  @media screen and (max-width: 900px) {
+  
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
     .intro{
       padding: 15px;
     }
@@ -178,7 +182,10 @@ body{
       }
     }
 
-  @media screen and (max-width: 800px) {
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
     /* Place the timelime to the left */
       .timeline::after {
         left: 29px;
@@ -208,9 +215,11 @@ body{
         left: 110px;
       }
     }
-  
-  /* Media queries - Responsive timeline on screens less than 600px wide */
-  @media screen and (max-width: 600px) {
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
   /* Place the timelime to the left */
     .timeline::after {
       left: 65px;
@@ -263,7 +272,10 @@ body{
   }
 
 
-@media screen and (max-width: 500px){
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .header-style{
      
      margin-top: 40px;

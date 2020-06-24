@@ -98,12 +98,15 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
     .grid-container-projects{
         display: flex; 
         width: 100vw;
-       height: 200vh;
+       height: 200vh !important;
       
     }
 
@@ -113,7 +116,7 @@
         text-decoration: underline blue;
         text-underline-position: under;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 20px !important;
     }
 
     .project-container{
@@ -122,8 +125,9 @@
     }
     
     .image-size{
-        width: 330px;
+        width: 310px;
        padding: 0px;
+       margin: 0 auto;
     }
 
     .iphone-image-size{
@@ -159,6 +163,76 @@
         overflow-x: hidden;
         
     }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    
+    .grid-container-projects{
+        display: flex; 
+        width: 100vw;
+       height: 270vh;
+      
+    }
+
+    .projects{
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline blue;
+        text-underline-position: under;
+        margin: 0 auto;
+        margin-top: 250px;
+    }
+
+    .project-container{
+        
+        margin-top: 0px;
+    }
+    
+    .image-size{
+        width: 310px;
+       padding: 0px;
+       margin: 0 auto;
+    }
+
+    .iphone-image-size{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .biomed-title{
+        
+        font-size: 24px;
+    }
+
+    .gg-title{
+        font-size: 20px;
+    }
+    
+    #padding-text{
+        padding: 30px;
+    
+    }
+    #gg-padding-text{
+        padding: 30px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    
+    .project-container{
+        margin-top: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+        
+    }
+
 }
 
 /* 
