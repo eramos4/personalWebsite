@@ -6,13 +6,14 @@ import projects from './components/projects';
 import photography from './components/photography'
 import contact from './components/contact'
 
+
 function App() {
   return (
     <div className="App">
       {landingPage()}
       {about()}
       {projects()}
-      {photography()}
+      {/* {photography()} */}
       {contact()}
     </div>
   );
