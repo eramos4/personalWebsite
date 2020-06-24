@@ -99,6 +99,142 @@
 }
 
 @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .grid-container-projects{
+        display: flex; 
+        width: 100vw;
+       height: 200vh !important;
+      
+    }
+
+    .projects{
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline blue;
+        text-underline-position: under;
+        margin: 0 auto;
+        margin-top: 0px !important;
+    }
+
+    .project-container{
+        
+        margin-top: 0px;
+    }
+    
+    .image-size{
+        width: 310px;
+       padding: 0px;
+       margin: 0 auto;
+    }
+
+    .iphone-image-size{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .biomed-title{
+        
+        font-size: 24px;
+    }
+
+    .gg-title{
+        font-size: 20px;
+    }
+    
+    #padding-text{
+        padding: 30px;
+    
+    }
+    #gg-padding-text{
+        padding: 30px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    
+    .project-container{
+        margin-top: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 823px)  { 
+
+    .grid-container-projects{
+        display: flex; 
+        width: 100vw;
+       height: 190vh !important;
+      
+    }
+
+    .projects{
+        font-size: 36px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: underline blue;
+        text-underline-position: under;
+        margin: 0 auto;
+        margin-top: 0px !important;
+    }
+
+    .project-container{
+        
+        margin-top: 0px;
+    }
+    
+    .image-size{
+        width: 310px;
+       padding: 0px;
+       margin: 0 auto;
+    }
+
+    .iphone-image-size{
+        width: 180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .biomed-title{
+        
+        font-size: 24px;
+    }
+
+    .gg-title{
+        font-size: 20px;
+    }
+    
+    #padding-text{
+        padding: 30px;
+    
+    }
+    #gg-padding-text{
+        padding: 30px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    
+    .project-container{
+        margin-top: 0px;
+    }
+
+    body {
+        overflow-x: hidden;
+        
+    }
+}
+
+
+
+
+@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
@@ -116,7 +252,7 @@
         text-decoration: underline blue;
         text-underline-position: under;
         margin: 0 auto;
-        margin-top: 20px !important;
+        margin-top: 0px !important;
     }
 
     .project-container{
